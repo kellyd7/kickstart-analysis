@@ -10,7 +10,7 @@ The puropose of this analysis is to show how the different Theater kickstarters 
 
 ### Analysis of Outcomes Based on Launch Date
 
-To perform the analysis of outcoms based on launch date, I had to first add a new column, "Years", to the Kickstarter worksheeet. This column pulled the years from the "Date Created Conversion" column using the year() function. I then created a pivot table from the Kickstarter worksheet, filtering using the Parent Category, showing only Theater, and Years, showing all years. I set the columns to show outcomes and the rows to show the Months from the "Date Created Conversion field". I also counted the outcomes by moving outcomes to the Values area. Finally, to visualize the data within the pivot table I created a pivot chart titled [Theater Outcomes Based on Launch Date]().
+To perform the analysis of outcoms based on launch date, I had to first add a new column, "Years", to the Kickstarter worksheeet. This column pulled the years from the "Date Created Conversion" column using the year() function. I then created a pivot table from the Kickstarter worksheet, filtering using the Parent Category, showing only Theater, and Years, showing all years. I set the columns to show outcomes and the rows to show the Months from the "Date Created Conversion field". I also counted the outcomes by moving outcomes to the Values area. Finally, to visualize the data within the pivot table I created a pivot chart titled [Theater Outcomes Based on Launch Date](https://github.com/kellyd7/kickstart-analysis/blob/main/Resources/Outcomes_vs_Goals.png).
 
 ### Analysis of Outcomes Based on Goals
 
