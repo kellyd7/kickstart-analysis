@@ -10,7 +10,7 @@ The puropose of this analysis is to show how the different Theater kickstarters 
 
 ### Analysis of Outcomes Based on Launch Date
 
-To perform the analysis of outcoms based on launch date, I had to first add a new column, "Years", to the Kickstarter worksheeet. This column pulled the years from the "Date Created Conversion" column using the year() function. I then created a pivot table from the Kickstarter worksheet, filtering using the Parent Category, showing only Theater, and Years, showing all years. I set the columns to show outcomes and the rows to show the Months from the "Date Created Conversion field". I also counted the outcomes by moving outcomes to the Values area. Finally, to visualize the data within the pivot table I created a pivot chart titled [Theater Outcomes Based on Launch Date](https://github.com/kellyd7/kickstart-analysis/blob/main/Resources/Outcomes_vs_Goals.png).
+To perform the analysis of outcoms based on launch date, I had to first add a new column, "Years", to the Kickstarter worksheeet. This column pulled the years from the "Date Created Conversion" column using the year() function. I then created a pivot table from the Kickstarter worksheet, filtering using the Parent Category, showing only Theater, and Years, showing all years. I set the columns to show outcomes and the rows to show the Months from the "Date Created Conversion field". I also counted the outcomes by moving outcomes to the Values area. Finally, to visualize the data within the pivot table I created a pivot chart titled [Theater Outcomes Based on Launch Date](https://github.com/kellyd7/kickstart-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png).
 
 ### Analysis of Outcomes Based on Goals
 
@@ -40,7 +40,7 @@ And with the following rows listed under the "Goal" column:
 	45000 to 49999
 	Greater than 50000
 
-I then used the countifs() function to populate the "Number Successful," "Number Failed," and "Number Canceled" columns, based on the project "outcome," the "goal" amount using the goal ranges shown above. Next, I used the sum() function to populate the total number of projects in the "Total project" column. Finally, I calculated the "Percentage Successful" by dividing "Number Successful" column by the "Total Projects". I repeated this calculation for the "Percentage Failed" and "Percentage Canceled" columns by using the "Number Failed" and "Number Canceled" columns respectively. To visualize this data, I highlighted the completed table and inserted a line chart titled, [Outcomes based on Goal]().
+I then used the countifs() function to populate the "Number Successful," "Number Failed," and "Number Canceled" columns, based on the project "outcome," the "goal" amount using the goal ranges shown above. Next, I used the sum() function to populate the total number of projects in the "Total project" column. Finally, I calculated the "Percentage Successful" by dividing "Number Successful" column by the "Total Projects". I repeated this calculation for the "Percentage Failed" and "Percentage Canceled" columns by using the "Number Failed" and "Number Canceled" columns respectively. To visualize this data, I highlighted the completed table and inserted a line chart titled, [Outcomes based on Goal](https://github.com/kellyd7/kickstart-analysis/blob/main/Resources/Outcomes_vs_Goals.png).
 
 
 ### Challenges and Difficulties Encountered
