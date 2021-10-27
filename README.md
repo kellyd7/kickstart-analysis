@@ -14,7 +14,7 @@ To perform the analysis of outcoms based on launch date, I had to first add a ne
 
 ### Analysis of Outcomes Based on Goals
 
-To perform the analysis of outcomes based on goals, I had to first filter the Kickstarter worksheet to only show plays. I then created a new worksheet titled "Outcomes Based on Goals" with the following columns:
+To perform the analysis of outcomes based on goals, I had to first clear the Kickstarter worksheet of all filters. I then created a new worksheet titled "Outcomes Based on Goals" with the following columns:
 
 	Goal
 	Number Successful
@@ -40,7 +40,7 @@ And with the following rows listed under the "Goal" column:
 	45000 to 49999
 	Greater than 50000
 
-I then used the countifs() function to populate the "Number Successful," "Number Failed," and "Number Canceled" columns, based on the project "outcome," the "goal" amount using the goal ranges shown above. Next, I used the sum() function to populate the total number of projects in the "Total project" column. Finally, I calculated the "Percentage Successful" by dividing "Number Successful" column by the "Total Projects". I repeated this calculation for the "Percentage Failed" and "Percentage Canceled" columns by using the "Number Failed" and "Number Canceled" columns respectively. To visualize this data, I highlighted the completed table and inserted a line chart titled, [Outcomes based on Goal](https://github.com/kellyd7/kickstart-analysis/blob/main/Resources/Outcomes_vs_Goals.png).
+I then used the countifs() function to populate the "Number Successful," "Number Failed," and "Number Canceled" columns, based on the project "outcome", "subcategory" set to plays, and the "goal" amount using the goal ranges shown above. Next, I used the sum() function to populate the total number of projects in the "Total project" column. Finally, I calculated the "Percentage Successful" by dividing "Number Successful" column by the "Total Projects". I repeated this calculation for the "Percentage Failed" and "Percentage Canceled" columns by using the "Number Failed" and "Number Canceled" columns respectively. To visualize this data, I highlighted the completed table and inserted a line chart titled, [Outcomes based on Goal](https://github.com/kellyd7/kickstart-analysis/blob/main/Resources/Outcomes_vs_Goals.png).
 
 
 ### Challenges and Difficulties Encountered
@@ -57,7 +57,7 @@ Two conclusion that can be drawn about the Outcomes based on Launch date is that
 1.	The most success in Theater campaigns was experience between May and June.
 2.	No campaigns were cancelled in the month of October for all years reported.
 
-A conclusion that can be made about the Outcomes based on Goals is that the probability of a campaign being successful is higher when the Goal is less than 1000 dollars.
+A conclusion that can be made about the Outcomes based on Goals worksheet is that the probability of a campaign being successful is higher when the Goal is less than 1000 dollars, according to the success rate.
 
 One key limitation to highlight is that the analysis performed doesn't account for the currency used. I say this because some campaigns were funded using Great Britain pounds, US Dollars, Euros and more. So,taking into account the currency exchange may bring about different results in our analysis. 
 
